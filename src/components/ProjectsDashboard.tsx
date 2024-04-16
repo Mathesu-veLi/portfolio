@@ -14,7 +14,7 @@ export function ProjectsDashboard() {
         Projects
       </h1>
 
-      <div className="gap-10 lg:gap-20 flex justify-center items-center my-16">
+      <div className="gap-10 lg:gap-20 flex justify-center items-center my-20">
         <Carousel
           className="w-10/12"
           orientation="vertical"
