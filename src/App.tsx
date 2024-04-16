@@ -1,4 +1,5 @@
 import { Header } from "./components/Header";
+import { ProjectsDashboard } from "./components/ProjectsDashboard";
 import { Welcome } from "./components/Welcome";
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
 
       <div className="flex flex-col lg:flex-row gap-36">
         <Welcome />
+
+        <ProjectsDashboard />
       </div>
     </div>
   );
