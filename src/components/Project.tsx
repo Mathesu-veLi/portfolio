@@ -2,11 +2,12 @@ interface ProjectProps {
   name: string;
   shortDescription: string;
   imgUrl: string;
+  link: string;
 }
 
 export function Project(props: ProjectProps) {
   return (
-    <div className="p-3 rounded-lg border flex flex-col-reverse gap-2">
+    <a href={props.link}>
       <div className="flex justify-around items-center">
         <h1 className="font-semibold text-lg">{props.name}</h1>
         <p className="text-gray-300 max-w-44">{props.shortDescription}</p>
@@ -17,5 +18,6 @@ export function Project(props: ProjectProps) {
         className="w-full border rounded-sm"
       />
     </div>
+    </a>
   );
 }

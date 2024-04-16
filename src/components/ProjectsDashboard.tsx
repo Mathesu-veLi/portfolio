@@ -12,11 +12,13 @@ export function ProjectsDashboard() {
           name="OUV Costumes"
           shortDescription="An online store for team shirts"
           imgUrl="https://i.ibb.co/LZdZBtg/homescreen.jpg"
+          link="https://ouv.vercel.app"
         />
         <Project
           name="Accountz"
           shortDescription="An account manager"
           imgUrl="https://i.ibb.co/hHQGD3G/dashboard.jpg"
+          link="https://accountz.vercel.app"
         />
       </div>
     </div>
