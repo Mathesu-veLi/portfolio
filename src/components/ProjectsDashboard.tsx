@@ -7,7 +7,7 @@ export function ProjectsDashboard() {
         Projects
       </h1>
 
-      <div className="grid lg:grid-cols-3 gap-10">
+      <div className="grid lg:grid-cols-3 gap-10 lg:gap-20">
         <Project
           name="OUV Costumes"
           shortDescription="An online store for team shirts"
