@@ -1,4 +1,5 @@
 export function Welcome() {
+  return (
     <div className="grid gap-10">
       <h1 className="text-center font-light text-5xl tracking-widest">
         Welcome
@@ -23,5 +24,6 @@ export function Welcome() {
           skills.
         </p>
       </div>
-    </div>;
+    </div>
+  );
 }
