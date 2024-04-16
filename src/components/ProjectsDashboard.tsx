@@ -20,6 +20,12 @@ export function ProjectsDashboard() {
           imgUrl="https://i.ibb.co/hHQGD3G/dashboard.jpg"
           link="https://accountz.vercel.app"
         />
+        <Project
+          name="DEV Toolkit"
+          shortDescription="A basic set of tools for devs"
+          imgUrl="https://i.ibb.co/YPpSZ7s/dev-home.png"
+          link="https://devfordev.vercel.app"
+        />
       </div>
     </div>
   );
