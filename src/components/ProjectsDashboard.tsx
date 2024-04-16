@@ -8,8 +8,16 @@ export function ProjectsDashboard() {
       </h1>
 
       <div className="grid grid-cols-2 gap-10">
-        <Project />
-        <Project />
+        <Project
+          name="OUV Costumes"
+          shortDescription="An online store for team shirts"
+          imgUrl="https://i.ibb.co/LZdZBtg/homescreen.jpg"
+        />
+        <Project
+          name="Accountz"
+          shortDescription="An account manager"
+          imgUrl="https://i.ibb.co/hHQGD3G/dashboard.jpg"
+        />
       </div>
     </div>
   );
