@@ -7,7 +7,7 @@ function App() {
     <div className="m-5 flex flex-col justify-center items-center h-full">
       <Header />
 
-      <div className="flex flex-col lg:flex-row gap-36">
+      <div className="flex flex-col gap-36">
         <Welcome />
 
         <ProjectsDashboard />
