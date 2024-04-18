@@ -39,6 +39,13 @@ export function ProjectsDashboard() {
                 link="https://devfordev.vercel.app"
               />
             </CarouselItem>
+            <CarouselItem className="basis-1/3">
+              <Project
+                name="Phonebook"
+                imgUrl="https://raw.githubusercontent.com/Mathesu-veLi/Phonebook/main/Screenshots/index.png"
+                link="https://phonebookproject.vercel.app"
+              />
+            </CarouselItem>
           </CarouselContent>
           <CarouselNext />
         </Carousel>
