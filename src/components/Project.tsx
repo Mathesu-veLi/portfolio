@@ -1,6 +1,5 @@
 interface ProjectProps {
   name: string;
-  shortDescription: string;
   imgUrl: string;
   link: string;
 }
