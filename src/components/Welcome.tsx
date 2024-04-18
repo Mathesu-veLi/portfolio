@@ -1,11 +1,11 @@
 export function Welcome() {
   return (
-    <div className="grid gap-10">
+    <div className="grid">
       <h1 className="text-center font-light text-5xl tracking-widest">
         Welcome
       </h1>
 
-      <div className="*:font-mono *:font-extralight grid gap-3">
+      <div className="*:font-mono *:font-extralight flex flex-col gap-3">
         <p>
           My name is Matheus Levi, I'm a back-end programmer living in Salvador,
           Bahia, Brazil.
